@@ -2947,7 +2947,7 @@ function Library:CreateWindow(...)
     if type(Config.TabPadding) ~= 'number' then Config.TabPadding = 0 end
     if type(Config.MenuFadeTime) ~= 'number' then Config.MenuFadeTime = 0.2 end
 
-    if typeof(Config.Position) ~= 'UDim2' then Config.Position = UDim2.fromOffset(200, 50) end
+    if typeof(Config.Position) ~= 'UDim2' then Config.Position = UDim2.fromOffset(300, 50) end
     if typeof(Config.Size) ~= 'UDim2' then Config.Size = UDim2.fromOffset(900, 600) end
 
     if Config.Center then
